@@ -2,7 +2,7 @@ defmodule RabbitixVmqPlugin.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :theo_verne_plugin,
+    [app: :rabbitix_vmq_plugin,
      version: "0.1.0",
      elixir: "~> 1.5",
      build_embedded: Mix.env == :prod,
